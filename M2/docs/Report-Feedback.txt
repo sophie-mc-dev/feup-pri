@@ -1,0 +1,9 @@
+Abstract lacks a lot of detail in terms of actual work covered and key results obtained
+Lack of new references
+Figures and tables need to be referenced in the text
+Inconsistent configuration used across queries
+Indexing process missed some detail, particularly in document definition and examples (especially given format conversion)
+Evaluation metrics lack detail in terms of choices made (e.g., why the first 10 results, how was recall estimated)
+No tables documenting top results retrieved (impossible to validate evaluation metrics)
+(Some) Precision-recall curves have a wrong pattern
+Results discussion has little depth, mostly just reiterates what is shown in metrics tables

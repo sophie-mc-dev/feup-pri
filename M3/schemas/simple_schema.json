@@ -1,0 +1,141 @@
+{
+	"add-field-type": [
+        {
+            "name":"text",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            }
+        }
+    ],
+    "add-field": [
+        {
+            "name": "Name",
+            "type": "text",
+            "indexed": true
+        },
+        {
+            "name": "Introduction",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Description",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "OriginCountry",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Characteristics",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Habitat",
+            "type": "generalText",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Taxonomy",
+            "type": "generalText",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Ecology",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Etymology",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Genetics",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Medicine",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Nutrition",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "ChemistryComposition",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Toxicity",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Allergenicity",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Uses",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "CulinaryUses",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "Cultivation",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          },
+          {
+            "name": "ThreatsControl",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+          }
+    ]
+}

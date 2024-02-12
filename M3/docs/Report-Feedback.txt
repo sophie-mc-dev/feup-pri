@@ -1,0 +1,3 @@
+Abstract lacks a lot of detail in terms of actual work performed and key results obtained
+Semantic search lacks detail in terms of technical exploration
+PR curves still have a bad format

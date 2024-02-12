@@ -1,0 +1,12 @@
+Title should be tailored towards the domain and work that is covered
+Do not reference the course in your report: you should write it as if it were an independent project
+Abstract has the right idea in mind, but lacks a lot of detail in terms of motivation, work done and results obtained
+Introduction is missing context on the domain chosen and its relevance (otherwise it's a generic paragraph that can be copy paste everywhere) and detail on the goals and paper structure
+Plot labels in figures need to be scaled up (barely readable, even with zoom); prefer using vectorial formats such as PDF
+No information on data format or volume
+Conceptual model is not present in the report: the report should be self-contained, i.e., have everything needed for grading with no external references (excluding online citation links)
+Conceptual model: Hard to judge given the lack of attributes' description, but some appear to be independent entities in the domain (e.g., origin country, the whole taxonomy hierarchy)
+No multi-variable analysis of any kind
+Unclear document structure (particularly important given scrapping)
+No conclusions at all: report should finish with a section titled as such where you recap the domain at hand and work covered/results obtained (and reflect vs goals outlined in introduction)
+Information needs: too generic ("a plant"); suggestions: plants native to North America that can be used in Mediterranean cuisine (+ more to be discussed as I need more context)

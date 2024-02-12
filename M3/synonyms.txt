@@ -1,0 +1,8 @@
+cold,frost,freeze,snow,frozen,winter
+flower,bloom
+lilac,violet,purple
+not,don't,doesn't
+benefic,beneficial,good,well
+damage,bad,kill,die
+remain,survive,hardy
+low,subzero
